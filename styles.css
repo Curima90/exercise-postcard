@@ -1,25 +1,30 @@
 body {
 	background: black;
+	font-family: "Roboto", sans-serif;
 }
 .postcard {
 	background-color: white;
+	color: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
 }
 .postcard-header {
 	display: flex;
+	color: black;
 }
 .postcard-header img {
 	width: 50px;
 	height: 50px;
 }
 .postcard-header h1 {
-	width: 90%;
+	width: 85%;
 	margin: 0;
+	padding: 5px;
 }
 .postcard-body {
 	display: flex;
+	color: black;
 }
 .body-left p:first-child {
 	margin-top: none;
@@ -33,6 +38,7 @@ body {
 	border: none;
 	border-bottom-style: solid;
 	font-size: medium;
+	margin-top: 15px;
 }
 .body-left p {
 	font-size: medium;
